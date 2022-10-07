@@ -11,3 +11,9 @@
 .cart-container{
     background-color: bisque;
 }
+
+@media source and (max-width:1100px){
+    .products-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
